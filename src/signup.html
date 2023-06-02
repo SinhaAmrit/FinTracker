@@ -1,11 +1,15 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📝|FinTracker</title>
     <link href="../public/output.css" rel="stylesheet">
-    <title>🏠|FinTracker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+        integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -57,10 +61,13 @@
         </div>
     </nav>
     <!-- Navbar Ends -->
-    <div>
-        <a id="hh" class="text-3xl font-bold underline"></a>
-    </div>
+    <input type="text" placeholder="Full Name" id="nameInp">
+    <input type="text" placeholder="Username" id="usernameInp">
+    <input type="text" placeholder="Email" id="emailInp">
+    <input type="password" placeholder="Password" id="passInp">
+    <button type="text" id="sub_btn">Sign Up</button>
+    <a href="./signin.html">Sign In</a>
 </body>
+<script src="./js/signup.js" type="module"></script>
 <script src="./js/nav.js"></script>
-
 </html>
