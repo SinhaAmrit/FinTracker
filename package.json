@@ -10,7 +10,7 @@
   "author": "[SinhaAmrit]",
   "license": "ISC",
   "devDependencies": {
-    "postcss": "^8.4.24",
+    "postcss": "^8.4.31",
     "tailwindcss": "^3.3.2"
   }
 }
